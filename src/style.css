@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+#root {
+  width: 100%;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+#main {
+  background-color: darkkhaki;
+  text-align: center;
+}
+
+#title {
+  font-family: "Lora", serif;
+  text-align: center;
+  font-weight: 800;
+  color: #2f4f4f;
+  font-size: x-large;
+}
+
+.subtitle {
+  /* margin-top: -0.3em; */
+  margin-bottom: 2em;
+  text-align: center;
+  color: #2f4f4f;
+}
+
+#img-div {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  /* border-radius: 8px; */
+}
+#img-caption {
+  color: rgb(48, 54, 56);
+  text-align: left;
+  padding: 1em 0;
+}
+#tribute-info {
+  max-width: 90%;
+  margin: 0 auto;
+  /* font-size: 1.1em; */
+  text-align: left;
+  font-family: monospace, cursive, sans-serif, Arial, Itallic;
+}
+
+#tribute-info ul {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.my-2 {
+  margin: 20px 0;
+}
+.quote {
+  background-color: ghostwhite;
+  border-radius: 5px;
+  font-family: "Caveat", cursive;
+  font-size: 1.6rem;
+}
+.tribute-link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  background-color: rgb(143, 138, 66);
+}
+a:hover {
+  color: rgb(26, 55, 141);
+}
